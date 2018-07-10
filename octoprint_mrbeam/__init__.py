@@ -146,6 +146,7 @@ class MrBeamPlugin(octoprint.plugin.SettingsPlugin,
 		@see self.get_additional_environment()
 		"""
 		msg = "MrBeam Plugin"
+		msg += " GALLORE "
 		msg += " version:{}".format(self._plugin_version)
 		msg += ", host:{}".format(self.getHostname())
 		msg += ", serial:{}".format(self.getSerialNum())
